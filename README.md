@@ -3,7 +3,7 @@
 **azpe** is a red-team / blue-team tool for mapping and simulating privilege escalation paths in Azure AD and Azure resources.  
 It builds an attack graph from identities, role assignments, and resources, then finds concrete escalation chains with remediation and detection guidance.
 
-⚠️ Use only on tenants and subscriptions you own or are authorized to test.  
+(Please) Use only on tenants and subscriptions you own or are authorized to test.  
 This project is for research and defense improvement.
 
 ---
@@ -32,3 +32,4 @@ cd azure-privesc-toolkit
 python -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
+
